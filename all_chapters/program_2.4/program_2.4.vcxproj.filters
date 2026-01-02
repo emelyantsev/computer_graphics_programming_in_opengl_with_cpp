@@ -15,8 +15,16 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\03_edition\ch02\program_2_1\main.cpp">
+    <ClCompile Include="..\..\03_edition\ch02\program_2_4\main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\03_edition\ch02\program_2_4\fragShader_2_4.frag">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\03_edition\ch02\program_2_4\vertShader_2_4.vert">
+      <Filter>Source Files</Filter>
+    </None>
   </ItemGroup>
 </Project>

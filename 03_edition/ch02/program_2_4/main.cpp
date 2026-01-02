@@ -28,8 +28,8 @@ GLuint createShaderProgram() {
 	GLuint fShader = glCreateShader(GL_FRAGMENT_SHADER);
 	GLuint vfprogram = glCreateProgram();
 
-	std::string vertShaderStr = readFile("vertShader.vert");
-	std::string fragShaderStr = readFile("fragShader.frag");
+	std::string vertShaderStr = readFile("vertShader_2_4.vert");
+	std::string fragShaderStr = readFile("fragShader_2_4.frag");
 	const char *vertShaderSrc = vertShaderStr.c_str();
 	const char *fragShaderSrc = fragShaderStr.c_str();
 
