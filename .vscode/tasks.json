@@ -1,0 +1,30 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "CMake: Configure",
+            "type": "shell",
+            "command": "cmake",
+            "args": [
+                "-S", "${config:myProject.sourceDir}", 
+                "-B", "${config:myProject.buildDir}",
+                "-DCMAKE_BUILD_TYPE=Debug"
+            ],
+            "group": "build"
+        },
+        {
+            "label": "CMake: Build",
+            "type": "shell",
+            "command": "cmake",
+            "args": [
+                "--build", "${config:myProject.buildDir}",
+                "-j", "4"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "dependsOn": [ "CMake: Configure" ]
+        }
+    ]
+}
