@@ -1,6 +1,6 @@
 {
-    "cmake.sourceDirectory": "/home/aleksey/Coding/computer_graphics_programming_in_opengl_with_cpp/03_edition/ch02/program_2_5",
-    "myProject.sourceDir": "${workspaceFolder}/03_edition/ch02/program_2_5",
-    "myProject.buildDir": "${workspaceFolder}/03_edition/ch02/program_2_5/build",
-    "myProject.launchTargetPath": "${workspaceFolder}/03_edition/ch02/program_2_5/build/program_2.5",
+    "cmake.sourceDirectory": "/home/aleksey/Coding/computer_graphics_programming_in_opengl_with_cpp/03_edition/ch02/program_2_6",
+    "myProject.sourceDir": "${workspaceFolder}/03_edition/ch02/program_2_6",
+    "myProject.buildDir": "${workspaceFolder}/03_edition/ch02/program_2_6/build",
+    "myProject.launchTargetPath": "${workspaceFolder}/03_edition/ch02/program_2_6/build/program_2.6",
 }

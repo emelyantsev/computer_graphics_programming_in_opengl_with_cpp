@@ -4,7 +4,10 @@
             "name": "Linux",
             "includePath": [
                 "${default}",
-                "${workspaceFolder}/lib/tools/include"
+                "${workspaceFolder}/lib/tools/include",
+                "${workspaceFolder}/lib/utils/include",
+                "${workspaceFolder}/external/SOIL2/src",
+                "${workspaceFolder}/external/glm"
             ],
             "defines": [],
             "compilerPath": "/usr/bin/g++",
